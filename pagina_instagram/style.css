@@ -1,0 +1,157 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.celular {
+    border: 15px solid black;
+    border-radius: 30px;
+    display: inline-block; 
+    margin-left: 20%;
+    box-sizing: border-box;    
+}
+
+.celular_login {
+    display: inline;
+}
+
+.area_login {
+    border: 1px solid lightgray;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    position:absolute;
+    width: 380px;
+    margin-left: 2.5%;
+}
+
+.titulo {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    font-size: 48px;
+}
+
+input {
+    width: 70%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 241, 241);
+}
+
+.entrar_button {
+    color: white;
+    background-color: lightblue;
+    border-radius: 7px;
+    margin: 0 50px;
+    padding: 8px;
+}
+
+.linha_do_ou {
+   width: 100%;
+   margin: 0 auto;
+}
+.linha_esquerda::before {
+    content: " ";
+    background-color: rgb(160, 71, 71);
+    height: 1px;
+    width: 40%;
+    display: inline-block;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+    
+}
+
+.ou {
+    font-size: 12px;
+    display: inline-block;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+    
+}
+
+.linha_direita::after {
+    content: " ";
+    background-color: rgb(160, 71, 71);
+    height: 1px;
+    width: 40%;
+    display: inline-block;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+ }
+
+
+ .facebook {
+    width: 100%;
+    margin: 0 auto;
+ }
+ 
+ .logo_facebook {
+    height: 25px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+p a {
+    text-decoration: none;
+    color: rgb(76, 101, 155);
+    display: inline-block;
+}
+
+.senha {
+    font-size: 13px;
+}
+.apple_logo {
+    height: 40px;   
+}
+
+.google_logo {
+    height: 40px;
+}
+
+.não_tem_conta {
+    border: 1px solid lightgray;
+    text-align: center;
+    display: inline;
+    box-sizing: border-box;
+    position:absolute;
+    top: 490px;
+    width: 380px;
+    margin-left: 2.5%;
+}
+
+.não_tem_conta a {
+    color: rgb(62, 171, 207);
+    font-weight: bold;
+}
+
+.aplicativo {
+    text-align: center;
+    display: inline;
+    box-sizing: border-box;
+    position:absolute;
+    top: 530px;
+    padding-top: 10px;
+    width: 380px;
+    margin-left: 2.5%;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.primeira_linha {
+   word-spacing: 8px;
+}
+
+.segunda_linha {
+    word-spacing: 8px;
+}
+
+.terceira_linha {
+    word-spacing: 8px;
+}
